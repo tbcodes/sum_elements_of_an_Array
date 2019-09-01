@@ -21,6 +21,7 @@ function sum(arr) {
 
 sum([15,4,1,10,5,3,6,12])
 
+
 // Method 3: Using map()
 
 function sumMix(arr) {
