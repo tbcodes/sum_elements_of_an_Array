@@ -1,2 +1,2 @@
 # Sum all elements in an Array - JS CODE!
-How to sum the number of elements in an Array using Javascript!
+How to sum all elements in an Array using Javascript!
