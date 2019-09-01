@@ -34,6 +34,7 @@ function sumMix(arr) {
 
 console.log(sumMix([15,4,1,10,5,3,6,12]))
 
+
 // Method 3.1: Using map() - Strings and Integers mixed!
 
 function sumMix(arr) {
@@ -55,3 +56,12 @@ const sumALL = function(arr) {
     }, 0);
 }
 console.log(sumALL([15, 4, 6]));
+
+
+// Method 5: Reduce ()  +  map ()  ---  Using Arrow Functions
+
+const sumALL = (arr, sum=0) => arr.map(elem => parseInt(elem)).reduce((sum,elem) => sum + elem);
+
+
+console.log(sumALL([8,5,3]))
+console.log(sumALL([6,'14',7,'33']))
